@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div style="background-color:aquamarine; width: 120px; height:200px;" >div1</div>
+    <div class="boxBg">div2</div>
+    <div class="box">div3</div>
+    <p>p1</p>
+    <p id="id">p2</p>
+    <p>p3</p>
+    <style>
+           
+        /*Tag Selector*/
+
+        div{
+            background-color: blue;
+            width:150px;
+            height:100px;
+            border:solid 5px black;
+        }
+        
+        /*Universal Selector / Global Selector */
+
+        *{
+            margin: 10px;
+            margin-left:50px;
+        }
+
+        /*Class Selector*/
+             
+        .boxBg{
+       border :solid 10px chocolate;
+       width:100px;
+       height:120px;
+       text-align:center;
+        }
+
+        /*Psecudo Selector*/
+
+        p:hover{
+            zoom: 90%;
+            width:100px;
+            height:200px;
+            background-color: aqua;
+        }
+
+        /*Id Selector*/
+
+        #id{
+            width:100px;
+            height:200px;
+            background-color: navy;
+        }
+
+    </style>
+    <style>
+        .box{
+             
+            width:100px;
+            height:100px;
+           /* border: solid 5px green;*/
+           margin:100px;
+           margin-right: 300px;
+           padding:100px;
+           padding-bottom: 100px;
+           background-color: red;
+           background-image: url(../Training/asset/download.jpg);
+           background-repeat: no-repeat;
+           background-size: contain;
+           background-position: center;
+        }
+    </style>
+    
+</body>
+</html>
